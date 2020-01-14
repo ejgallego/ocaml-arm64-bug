@@ -1,0 +1,7 @@
+(executable
+ (name coqdep_boot)
+ (public_name coqdep_boot)
+ (flags :standard -w -27)
+ (libraries str unix))
+
+(ocamllex coqdep_lexer)
